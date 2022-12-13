@@ -26,15 +26,13 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row banner-caption" style="font-size:40px">
-                <div class="col-4 text-center" style=" color:#008748">Scientifically Tested.</div>
-                <div class="col-4 text-center" style=" color:#008748">Burn Fat Fast.</div>
-                <div class="col-4 text-center" style=" color:#008748">Increase Energy.</div>
+        <div class="container mb-4">
+            <div class="row banner-caption" style="font-size:30px">
+                <div class="col-lg-4 text-center" style=" color:#063570"><img src="assets/img/tick-icon.png" style="margin-right: 10px;">Scientifically Tested.</div>
+                <div class="col-lg-4 text-center" style=" color:#063570"> <img src="assets/img/tick-icon.png" style="margin-right: 10px;">Burn Fat Fast.</div>
+                <div class="col-lg-4 text-center" style=" color:#063570"> <img src="assets/img/tick-icon.png" style="margin-right: 10px;">Increase Energy.</div>
             </div>
-            <!-- <img src="assets/img/tick-icon.png" style="margin-right: 10px;">
-            <img src="assets/img/tick-icon.png" style="margin-right: 10px;">
-            <img src="assets/img/tick-icon.png" style="margin-right: 10px;"> -->
+
         </div>
         <div class="container">
             <div class="row justify-content-center">

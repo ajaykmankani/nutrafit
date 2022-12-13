@@ -1,5 +1,6 @@
 <?php
-$name = 'Nutra Deals';
+$name = 'Slim Fit';
+$brandname = 'Nutra Deals';
 $tagline = 'Loose weight fast';
 $phone = '8888888888';
 $email = 'admin@nutradeals.com';
