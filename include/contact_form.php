@@ -29,8 +29,8 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label>Subject</label>
-                                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
+                                <label>Mobile</label>
+                                <input class="form-control form-control-subject" type="tel" name="Phone" id="subject" placeholder="" required>
                             </div>
                         </div>
                     </div>
@@ -79,16 +79,17 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
+
                         </div>
-                        <select class="form-select" aria-label="Default select example" name="subject">
-                            <option selected disabled>Select Subject **</option>
-                            <option value="Delivery & Orders">Delivery & Orders</option>
-                            <option value="Diet & Exercise">Diet & Exercise</option>
-                            <option value="Marketing & Press">Marketing & Press</option>
-                            <option value="Share Your Success">Share Your Success</option>
-                            <option value="Wholesale And Returns">Wholesale And Returns</option>
-                        </select>
+
                         <div class="form-grp">
+
+                            <div class="form-grp">
+                                <label for="email">Mobile</label>
+                                <input type="tel" name="Phone" placeholder="Enter here" required="required" data-error="Mobile is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+
                             <label for="message">Message</label>
                             <textarea name="message" name="message" placeholder="Enter here" required="required" data-error="Message is required."></textarea>
                             <div class="help-block with-errors"></div>

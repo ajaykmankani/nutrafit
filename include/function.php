@@ -1,4 +1,5 @@
 <?php
+include('../variables.php');
 $msg = "";
 foreach ($_POST as $key => $data) {
     $msg .= "$key:  $data | ";
@@ -11,7 +12,7 @@ foreach ($_POST as $key => $data) {
 // $msg = wordwrap($msg, 70);
 
 // send email
-if (mail("ajaykmankani66@gmail.com", "Enquiry form your website", $msg)) {
+if (mail($email, "Enquiry form your website", $msg)) {
 ?><script>
         alert("Mail Sent Successfully");
         location.href = "index.php";

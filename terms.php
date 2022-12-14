@@ -1,4 +1,37 @@
 <?php include('header.php'); ?>
+
+<?php
+
+function read_docx($filename)
+{
+
+    $striped_content = '';
+    $content = '';
+
+    if (!$filename || !file_exists($filename)) return false;
+
+    $zip = zip_open($filename);
+    if (!$zip || is_numeric($zip)) return false;
+
+    while ($zip_entry = zip_read($zip)) {
+
+        if (zip_entry_open($zip, $zip_entry) == FALSE) continue;
+
+        if (zip_entry_name($zip_entry) != "word/document.xml") continue;
+
+        $content .= zip_entry_read($zip_entry, zip_entry_filesize($zip_entry));
+
+        zip_entry_close($zip_entry);
+    }
+    zip_close($zip);
+    $content = str_replace('</w:r></w:p></w:tc><w:tc>', " ", $content);
+    $content = str_replace('</w:r></w:p>', "\r\n", $content);
+    $striped_content = strip_tags($content);
+
+    return $striped_content;
+}
+
+?>
 <div class="container" style="margin-top: 100px;margin-bottom: 100px;">
     <h1>Terms &amp; Conditions</h1>
     <div>This Website is an online service owned, operated and managed by <?= $brandname ?> (&lsquo;we&rsquo; or &lsquo;us&rsquo;). In using/accessing the website, you are deemed to have accepted the terms and conditions of the agreement listed below or as may be revised from time to time (&lsquo;User Agreement&rsquo;), which is, for an indefinite period and you understand and agree that you are bound by such terms till the time you access this Website.</div>

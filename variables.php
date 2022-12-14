@@ -4,6 +4,7 @@ $brandname = 'Nutra Deals';
 $tagline = 'Loose weight fast';
 $phone = '8287172992';
 $email = 'care.nutravigore@gmail.com';
+$test_email = 'ajaykmankani66@gmail.com';
 $show_email = 'care@nutradeals.in';
 $website = 'www.nutradeals.com';
 $address = 'office no 1 office complex';
