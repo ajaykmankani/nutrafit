@@ -11,15 +11,15 @@
                 <div class="formula-content">
                     <div class="section-title white-title mb-50">
                         <p class="sub-title">.. <?= $name ?> Formula ..</p>
-                        <h2 class="title">Our Formula</h2>
+                        <h2 class="title">Advantages of Use</h2>
                     </div>
                     <ul class="formula-list list-wrap">
-                        <li>CAFFEINE ANHYDROUS</li>
-                        <li>CAPSIMAX POWDER</li>
-                        <li>CHROMIUM PICOLINATE</li>
-                        <li>Α-LACYS RESET®</li>
-                        <li>OPUNTIA VULGARIS</li>
-                        <li>L-CARNITINE FUMARATE</li>
+                        <li>SUPPORTS FAT LOSS AND FUELS METABOLISM</li>
+                        <li>IMPROVES IMMUNE FUNCTION</li>
+                        <li>INCREASE FOCUS AND STRENGTH</li>
+                        <li>SUPPORTS WEIGHT MANAGEMENT AND GUT HEALTH</li>
+                        <li>DECREASES WATER RETENTION AND FACE BLOATING</li>
+                        <li>KEEPS WEIGHT IN CONTROL</li>
 
                     </ul>
                     <button data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-two">Know More</button>

@@ -1,0 +1,22 @@
+
+{
+    "profile": "default",
+
+    "protocol": "ftp",
+    "host": "ftp://nutradeals.in",
+    "port": 21,
+    "user": "u659114514.nutradeals.in",
+    "password": "Nutradeals#198",
+
+    "remotePath": "/",
+    "uploadOnSave": false,
+    "saveOnCheckIn": false,
+    "clearCacheOnCheckIn": false,
+
+    "ignore": [
+        "*/.DS_Store",
+        "*/.vscode/*",
+        "*/.git/*",
+        "*/*.LCK"
+    ]
+}

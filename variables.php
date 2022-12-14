@@ -2,8 +2,9 @@
 $name = 'Slim Fit';
 $brandname = 'Nutra Deals';
 $tagline = 'Loose weight fast';
-$phone = '8888888888';
-$email = 'admin@nutradeals.com';
+$phone = '8287172992';
+$email = 'care.nutravigore@gmail.com';
+$show_email = 'care@nutradeals.in';
 $website = 'www.nutradeals.com';
 $address = 'office no 1 office complex';
 

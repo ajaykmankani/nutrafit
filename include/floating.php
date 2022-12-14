@@ -1,3 +1,3 @@
- <div style="position: fixed;z-index: 10;top: 75%;left: 0%;"><a href="tel:+<?= $phone ?>"><img src="assets/img/call.png" class="img-responsive" alt="" style="width:36%;" target="_blank"></a></div>
+ <div style="position: fixed;z-index: 10;top: 75%;left: 0%;"><a href="tel:<?= $phone ?>"><img src="assets/img/call.png" class="img-responsive" alt="" style="width:36%;" target="_blank"></a></div>
 
  <div style="position: fixed;z-index: 10;top: 88%;left: 0%;"><a href="https://api.whatsapp.com/send?phone=91<?= $phone ?>&text=Hello" target="_blank"><img src="assets/img/whatsapp.png" class="img-responsive" alt="" style="width:40%;"></a></div>

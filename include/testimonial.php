@@ -42,13 +42,7 @@
                         </div>
                     </div>
                     <div class="testimonial-item text-center">
-                        <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
+                       
                         <p>“Before using <?= $name ?>, I had already tried and tested a lot of stuff, like diets, lifestyle changes, and more. However, nothing really worked for me. But as I started using <?= $name ?>, I was startled to see some hopeful results within about 2-3 months time frame. Now, I recommend only <?= $name ?> to people facing weight-related complications.</p>
                         <div class="testimonial-avatar-wrap">
                             <div class="testi-avatar-img">
