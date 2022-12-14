@@ -91,6 +91,7 @@
 
 
     <?php include('include/pricing.php'); ?>
+    <?php include('include/review/index.php'); ?>
     <?php include('include/testimonial.php'); ?>
 
     <?= include('include/contact_form.php') ?>
