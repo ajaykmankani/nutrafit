@@ -1,8 +1,7 @@
 <?php include('variables.php'); ?>
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
-<!-- Mirrored from themegenix.net/html/<?= $name ?>-preview/<?= $name ?>/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Dec 2022 22:49:28 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -66,7 +65,7 @@
                                 </div>
                                 <div class="navbar-wrap main-menu d-none d-xl-flex">
                                     <ul class="navigation">
-                                        <li><a href="#home" class="section-link">Home</a></li>
+                                        <li><a href="index.php" class="section-link">Home</a></li>
                                         <li><a href="#features" class="section-link">Features</a></li>
                                         <li><a href="#paroller" class="section-link">Product</a></li>
                                         <li><a href="#ingredient" class="section-link">Ingredient</a></li>
