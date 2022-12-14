@@ -1,7 +1,8 @@
 <?php include('variables.php'); ?>
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en">
 
+<!-- Mirrored from themegenix.net/html/<?= $name ?>-preview/<?= $name ?>/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Dec 2022 22:49:28 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -65,7 +66,7 @@
                                 </div>
                                 <div class="navbar-wrap main-menu d-none d-xl-flex">
                                     <ul class="navigation">
-                                        <li><a href="index.php" class="section-link">Home</a></li>
+                                        <li><a href="#home" class="section-link">Home</a></li>
                                         <li><a href="#features" class="section-link">Features</a></li>
                                         <li><a href="#paroller" class="section-link">Product</a></li>
                                         <li><a href="#ingredient" class="section-link">Ingredient</a></li>
@@ -160,7 +161,22 @@
                         <!-- End Mobile Menu -->
                     </div>
                 </div>
+                <marquee class="menu-area sticky-menu" style="background-color: #0d9b4d;color: #fff; top: 92px;z-index: 80;">
+
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>GLUTEN FREE </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NON-GMO </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NO ARTIFICAL FLAVOURS </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NO PRESERVATIVES </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>SOY FREE </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>GLUTEN FREE </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NON-GMO </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NO ARTIFICAL FLAVOURS </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>NO PRESERVATIVES </span>
+                    &nbsp;&nbsp;<i class="fas fa-star"></i>&nbsp;&nbsp;<span>SOY FREE </span>
+
+                </marquee>
             </div>
+
         </div>
 
         <!-- header-search -->
@@ -190,12 +206,12 @@
                 <div class="offCanvas-content">
                     <h3 class="title">Getting all of the <span>Nutrients</span> you need simply cannot be done without supplements.</h3>
                     <p>
-                    <p>All <?= $name ?> products are manufactured and packaged in India and undergo rigorous quality assurance procedures to ensure the highest quality. We are committed to providing state-of-the-art nutraceuticals to support your optimal health and well-being.</p>
+                    <p>All <?= $brandname ?> products are manufactured and packaged in India and undergo rigorous quality assurance procedures to ensure the highest quality. We are committed to providing state-of-the-art nutraceuticals to support your optimal health and well-being.</p>
                     </p>
                 </div>
                 <div class="offcanvas-contact">
                     <h4 class="number"><?= $phone ?></h4>
-                    <h4 class="email"><?= $email ?></h4>
+                    <h4 class="email"><?= $show_email ?></h4>
                     <p><?= $address ?></p>
                     <ul class="offcanvas-social list-wrap">
                         <li><a href="<?= $social_facebook ?>"><i class="fab fa-facebook-f"></i></a></li>
