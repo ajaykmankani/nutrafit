@@ -7,8 +7,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Step 1 - Verify Customer Information
-                </h5>
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -23,19 +22,21 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label>Mobile</label>
-                                <input type="tel" class="form-control form-control-subject" name="mobile" id="subject" placeholder="" required>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
                                 <label>Email</label>
                                 <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email" required>
                             </div>
                         </div>
-
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="4" required></textarea>
+                    </div>
 
 
 
@@ -43,7 +44,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Verify Now</button>
+                <button type="submit" class="btn btn-primary">Send message</button>
                 </form>
             </div>
         </div>
@@ -75,20 +76,20 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-grp">
-                                    <label for="email">Mobile</label>
-                                    <input type="tel" name="mobile" placeholder="Enter here" required="required" data-error="Phone is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-grp">
                                     <label for="email">Email Address</label>
                                     <input type="email" name="email" placeholder="Enter here" required="required" data-error="Email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                         </div>
-
+                        <select class="form-select" aria-label="Default select example" name="subject">
+                            <option selected disabled>Select Subject **</option>
+                            <option value="Delivery & Orders">Delivery & Orders</option>
+                            <option value="Diet & Exercise">Diet & Exercise</option>
+                            <option value="Marketing & Press">Marketing & Press</option>
+                            <option value="Share Your Success">Share Your Success</option>
+                            <option value="Wholesale And Returns">Wholesale And Returns</option>
+                        </select>
                         <div class="form-grp">
                             <label for="message">Message</label>
                             <textarea name="message" name="message" placeholder="Enter here" required="required" data-error="Message is required."></textarea>

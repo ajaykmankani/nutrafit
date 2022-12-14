@@ -76,6 +76,7 @@
 
 
     <?php include('include/feature_products.php'); ?>
+    <?php include('include/image.php'); ?>
 
 
 

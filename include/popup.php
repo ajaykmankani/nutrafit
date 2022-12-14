@@ -6,8 +6,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Contact Form
-                </h5>
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                 <button id="close2" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -22,19 +21,21 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label>Mobile</label>
-                                <input type="tel" class="form-control form-control-subject" name="mobile" id="subject" placeholder="" required>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
                                 <label>Email</label>
                                 <input class="form-control form-control-email" name="email" id="email" placeholder="" type="email" required>
                             </div>
                         </div>
-
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required>
+                            </div>
+                        </div>
                     </div>
-
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="4" required></textarea>
+                    </div>
 
 
 
@@ -42,7 +43,7 @@
             </div>
             <div class="modal-footer">
                 <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-primary">Send message</button>
                 </form>
             </div>
         </div>
@@ -65,9 +66,7 @@
     };
 
     function OpenBootstrapPopup() {
-
-        $('#exampleModal').trigger('focus')
-
+        $("#exampleModal").modal('show');
     }
 
 
