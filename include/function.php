@@ -15,7 +15,7 @@ foreach ($_POST as $key => $data) {
 if (mail($email, "Enquiry form your website", $msg)) {
 ?><script>
         alert("Mail Sent Successfully");
-        location.href = "index.php";
+        location.href = "../thankyou.php";
     </script><?php
             } else {
                 ?><script>

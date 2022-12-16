@@ -10,7 +10,7 @@
                 <button id="close2" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="function.php" method="post" role="form">
+                <form action="include/function.php" method="post" role="form">
                     <div class="error-container"></div>
                     <div class="row">
                         <div class="col-md-12">
@@ -91,4 +91,8 @@
             }
         });
     });
+
+    setTimeout(function myFunction() {
+        $("#exampleModal").modal('show')
+    }, 10000);
 </script>

@@ -1,4 +1,24 @@
 <!-- testimonial-area -->
+
+
+<?php
+// $user = json_decode(
+//     file_get_contents(
+//         'https://randomuser.me/api/?results=20&gender=female&nat=in'
+//     ),
+//     true
+// );
+// // var_dump($user);
+// foreach ($user["results"] as $value) {
+//     echo "<img src = " . $value["picture"]["large"] . ">";
+//     echo $value['name']["first"] . " " . $value['name']["last"];
+//     echo "<br>";
+// }
+
+?>
+
+
+
 <?php
 $file = fopen("assets/review_nutra.csv", "r");
 
@@ -19,7 +39,9 @@ $file = fopen("assets/review_nutra.csv", "r");
 
 
 
-                    <?php while (($data = fgetcsv($file)) !== false) { ?>
+                    <?php $x = 0;
+                    while (($data = fgetcsv($file)) !== false) {
+                        $x++; ?>
 
                         <div class="testimonial-item text-center">
                             <div class="testimonial-rating">
@@ -32,7 +54,11 @@ $file = fopen("assets/review_nutra.csv", "r");
                             <p>“ <?= $data[1] ?></p>
                             <div class="testimonial-avatar-wrap">
                                 <div class="testi-avatar-img">
-                                    <img src="assets/img/others/testi_avatar01.jpg" alt="img">
+                                    <?php if ($data[2] == 'm') { ?>
+                                        <img src="https://randomuser.me/api/portraits/men/<?= $x ?>.jpg" alt="img">
+                                    <?php } else { ?>
+                                        <img src="https://randomuser.me/api/portraits/women/<?= $x ?>.jpg" alt="img">
+                                    <?php } ?>
                                 </div>
                                 <div class="testi-avatar-info">
                                     <h5 class="name"><?= $data[0] ?></h5>
@@ -48,10 +74,11 @@ $file = fopen("assets/review_nutra.csv", "r");
 
 
 
-
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 <!-- testimonial-area-end -->

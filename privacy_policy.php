@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('header2.php'); ?>
 <div class="container" style="margin-top: 100px;margin-bottom: 100px;">
     <h1>Privacy Policy</h1>
     <p><br /><br /></p>

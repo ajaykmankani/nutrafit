@@ -72,6 +72,7 @@
                                     <li class="mail"><i class="fas fa-envelope"></i> <?= $show_email ?></li>
                                     <li class="website"><i class="fas fa-globe"></i><?= $website ?></li>
                                     <li class="website"><i class="fas fa-user-secret"></i><a href="privacy_policy.php">Privacy Policy</a></li>
+                                    <li class="website"><i class="fas fa-asterisk"></i><a href="refund.php">Refund Policy</a></li>
                                     <li class="website"><i class="fas fa-asterisk"></i><a href="terms.php">Terms & Condition's</a></li>
                                 </ul>
                             </div>

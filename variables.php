@@ -6,7 +6,8 @@ $phone = '8287172992';
 $email = 'care.nutravigore@gmail.com';
 $test_email = 'ajaykmankani66@gmail.com';
 $show_email = 'care@nutradeals.in';
-$website = 'www.nutradeals.com';
+$website = 'www.nutradeals.in';
+$website_link = 'https://nutradeals.in/slimfit-herbal/';
 $address = 'office no 1 office complex';
 
 $social_facebook = '#';
